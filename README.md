@@ -1,9 +1,9 @@
 ### build/repro steps
 
-- add local.properties for `github.user`, `github.token`
-- install app
-- open app
-- check logs
+1. add local.properties for `github.user`, `github.token`
+2. install app on emulator at API 30
+3. open app
+4. check logs
 
 On MainActivity create, a Zenoh session is opened.
 
@@ -20,7 +20,7 @@ Crashes on emulator.
 
 https://github.com/user-attachments/assets/bfd0ad75-dfe2-43df-bcb1-e1d9a4c2a395
 
-#### crash on emulator (Pixel 5, Android 11.0 x86)
+#### crash on emulator (Pixel 5, API 30, Android 11.0 x86)
 
 https://github.com/user-attachments/assets/782f18b7-6d2e-4ba2-9fef-118f8eba955e
 
